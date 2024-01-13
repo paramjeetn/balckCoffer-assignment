@@ -7,7 +7,7 @@ const Dashboard = require('./schema.js');
 
 app.use(cors());
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/blackcoffer";
+const MONGO_URL = "mongodb+srv://paramjeetnpradhan:Paramjeet.826@cluster01.wmcwsfi.mongodb.net/BlackCofee/BlackCofee";
 main()
   .then(() => {
     console.log("connected to DB");
