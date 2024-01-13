@@ -1,0 +1,29 @@
+#myRadarChart{
+    width: 26rem !important;
+    height: 26rem !important;
+    
+}
+
+@media (max-width : 585px) {
+    #myRadarChart{
+        width: 24rem !important;
+        height: 24rem !important;
+        
+    }
+}
+
+@media (max-width : 575px) {
+    #myRadarChart{
+        width: 20rem !important;
+        height: 20rem !important;
+        
+    }
+}
+
+@media (max-width : 485px) {
+    #myRadarChart{
+        width: 16rem !important;
+        height: 16rem !important;
+        
+    }
+}

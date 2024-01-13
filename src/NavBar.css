@@ -1,0 +1,18 @@
+.nav{
+    background-color: #ff9800 !important;
+}
+
+.nv-in{
+    margin: .7rem !important;
+    padding: 0 .6rem !important;
+}
+
+.a-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-txt{
+    padding-left: .7rem !important;
+}

@@ -1,0 +1,26 @@
+.select{
+    padding-right: .3rem !important;
+    padding-left: .3rem !important;
+    width: fit-content !important;
+    margin-right: .5rem !important;
+}
+
+#myPieChart{
+    height: 88% !important;
+    /* width: var(90% - 2rem) !important; */
+    margin-bottom: 1rem !important;
+}
+
+.select-hold{
+    display: flex !important;
+    justify-content: center!important; 
+    align-items: center!important; 
+}
+
+@media (max-width: 768px) {
+    .select {
+      width: 100% !important;  /* Adjust width for smaller screens */
+      margin-right: 0 !important;
+      margin-bottom: 1% !important;  /* Remove right margin for smaller screens */
+    }
+}
