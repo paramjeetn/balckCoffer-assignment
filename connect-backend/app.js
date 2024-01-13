@@ -18,6 +18,11 @@ main()
 async function main() {
   await mongoose.connect(MONGO_URL);
 }
+app.get("/",async(req,res)=>{
+    const data = await Dashboard.find();
+    console.log(data);
+    res.send(data);
+})
 
 app.get('/newsData', async (req, res) => {
     try {
